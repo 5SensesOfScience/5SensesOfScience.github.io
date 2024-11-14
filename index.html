@@ -1,55 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-   <title></title>
+    <title>5 Senses of Science</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
   </head>
-  <body>
-    <nav class="navbar navbar-default">
+  <body style="background-color: #2d2c2d; color: white;">
 
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
 
-        <!--Collapsed navbar-->
-        <div class="navbar-header">
-          <button 
-          type="button" 
-          class="navbar-toggle collapsed" 
-          data-toggle="collapse" 
-          data-target="#main_navbar" 
-          aria-expanded="false">Open</button>
-        </div>
-        <!--End Collapsed navbar-->
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="images/5SoScLogo.png" alt="Brand Logo" style="height: 60px;">
+        </a>
         
-        <!--Uncollapsed navbar-->
-        <div class="collapse navbar-collapse" id="main_navbar">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Olfato</a></li>
-            <li><a href="#">Tacto</a></li>
-            <li><a href="#">Gusto</a></li>
-            <li><a href="#">Escucha</a></li>
-            <li><a href="#">Vista</a></li>
+        <!-- Button When Collapsed -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#navbarNav" aria-controls="navbarNav" 
+        aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Uncollapsed navbar -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active fw-bold text-primary" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item"><a class="nav-link text-light" href="#">Venue</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="#">Programme</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="#">Senses</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="#">Team</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="#">How to find us</a></li>
+            <li class="nav-item"><a href="#" class="btn btn-secondary rounded">Register now</a></li>
           </ul>
         </div>
-        <!--End Uncollapsed navbar-->
-
+        <!-- End Uncollapsed navbar -->
 
       </div>
     </nav>
-    <div class="container">
-      <h1>Hello welcome to my boostrap site!</h1>
+    
+    <!-- Main Site -->
+    <div class="container text-center mt-5">
+      <h1>Experience Science</h1>
+      <h2>Five Senses Of Science</h2>
     </div>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
+    <!-- End of Main Site -->
+     
+    <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
